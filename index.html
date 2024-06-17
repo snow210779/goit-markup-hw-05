@@ -551,13 +551,52 @@
                 </div>
             
                 <label for="phone" class="modal-label">Phone</label>
-                <input id="phone" type="tel" name="phone" class="modal-input">
+
+                <div class="modal-input-box">
+                    <input id="phone" type="tel" name="phone" class="modal-input">
+    
+                    <div class="modal-icon-box">
+                        <div class="modal-icon-contant">
+                            <svg class="modal-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
             
                 <label for="email" class="modal-label">Email</label>
-                <input id="email" type="email" name="email" class="modal-input">
+
+                <div class="modal-input-box">
+                    <input id="email" type="email" name="email" class="modal-input">
+    
+                    <div class="modal-icon-box">
+                        <div class="modal-icon-contant">
+                            <svg class="modal-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
             
             <label for="comment" class="modal-label">Comment</label>
                 <textarea name="comment" id="comment" rows="10" placeholder="Text input" class="modal-txtarea"></textarea>
+
+                <label class="modal-checkbox visually-hidden">
+
+                    <input type="checkbox" name="policy" value="policy" class="modal-checkbox-input">I accept the terms and conditions of the <span class="policy-accent">Privacy Policy</span>
+                </label>
+
+                <label  class="modal-privacy-label">
+
+                    <div class="modal-privacy-icon-box">
+
+                        <svg class="modal-privacy-icon" width="10" height="8">
+                            <use href="./images/icons.svg#icon-click"></use>
+                        </svg>
+                    </div>
+
+                    <input class="modal-privacy-input" type="text" name="privacy" placeholder="I accept the terms and conditions of the Privacy Policy">
+                </label>
             
             </form>
 
