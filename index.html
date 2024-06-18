@@ -519,6 +519,28 @@
                     </li>
                 </ul>
             </div>
+
+            <form class="footer-form" name="subscribe" autocomplete="off">
+
+                <label class="footer-label" for="subscribe">Subscribe</label>
+
+                <div class="footer-input-btn-box">
+                    <input class="footer-input" id="subscribe" type="text" name="subscribe" placeholder="E-mail">
+
+                    <div class="footer-btn-subscribe-box">
+
+                        <button class="footer-btn-subscribe" type="submit">Subscribe</button>
+
+                        <div class="footer-subscribe-icon-box">
+                            <svg class="footer-subscribe-icon" width="24" height="20">
+                                <use href="./images/icons.svg#icon-subscribe"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+    
+                </div>
+            </form>
         </div>
     </footer>
 
@@ -586,7 +608,7 @@
                     <input type="checkbox" name="policy" value="policy" class="modal-checkbox-input">I accept the terms and conditions of the <span class="policy-accent">Privacy Policy</span>
                 </label>
 
-                <label  class="modal-privacy-label">
+                <div class="modal-privacy">
 
                     <div class="modal-privacy-icon-box">
 
@@ -595,8 +617,10 @@
                         </svg>
                     </div>
 
-                    <input class="modal-privacy-input" type="text" name="privacy" placeholder="I accept the terms and conditions of the Privacy Policy">
-                </label>
+                    <p class="modal-privacy-text">I accept the terms and conditions of the <span class="modal-privacy-text-accent">Privacy Policy</span></p>
+                </div>
+
+                <button class="form-btn-send" type="submit">Send</button>
             
             </form>
 
