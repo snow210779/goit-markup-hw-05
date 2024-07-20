@@ -606,7 +606,7 @@ a {
 .modal-textarea {
   border: 1px solid rgba(46, 47, 66, 0.4);
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -652,10 +652,10 @@ a {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
+  fill: transparent;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
   margin-right: 8px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -663,7 +663,7 @@ a {
 }
 
 .checkbox-input:checked + .checkbox-label > .checkbox-icon {
+  border: none;
   fill: #f4f4fd;
   background-color: #404bbf;
-  border: none;
 }
